@@ -16,7 +16,7 @@ int main() {
         if(y == "Good!"){
            printf("Thank you!");
        } 
-       else {
+       if(y=="Bad"){
         printf(":(");
        } 
         return 0;
